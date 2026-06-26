@@ -1,0 +1,5 @@
+# "src/main/resources/practice/" 
+# "*.png" 
+target/
+*.png
+src/main/resources/practice/
