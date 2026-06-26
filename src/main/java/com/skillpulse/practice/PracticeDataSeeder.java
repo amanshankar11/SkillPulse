@@ -16,7 +16,7 @@ import java.util.Map;
 @Component
 public class PracticeDataSeeder implements CommandLineRunner {
     private static final long MIN_QUESTIONS_PER_SUBJECT = 50;
-    private static final long LEARNING_PATH_QUESTION_COUNT = 1275;
+    private static final long LEARNING_PATH_QUESTION_COUNT = 1335;
     private static final String QUESTION_BANK_RESOURCE = "/practice/learning_path_question_bank.json";
 
     private final PracticeSubjectRepository subjects;
