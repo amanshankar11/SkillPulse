@@ -1,27 +1,12 @@
-<<<<<<< HEAD
+
 # SkillPulse Spring Boot Backend
 
-This keeps your existing HTML/CSS/JS UI and adds a Java Spring Boot backend around it.
+SkillPulse is a skill-tracking and MCQ practice platform. Users register, take assessments 
+organized by Subject → Topic → Question, and the system tracks their health score over time with 
+email notifications. 
 
-## Best architecture for your project
-
-- Use **Spring Boot** for login/register, APIs, dashboard data, and serving HTML.
-- Keep **Python** for ML experiments and models, because the ML ecosystem is much stronger there.
-- Let Spring Boot expose `/api/ml/analyze`; internally it can use the Java fallback or call Python.
-
-## Run
-
-This project targets **Java 8** with **Spring Boot 2.7.18**.
-
-```bash
-mvn spring-boot:run
-```
-
-Then open:
-
-```text
-http://localhost:8080/
-```
+Tech stack: Spring Boot 2.7 · Java 8 · PostgreSQL (port 5433) · BCrypt · Spring Mail · Python ML bridge 
+· Docker · Static HTML frontend served from the same app. 
 
 ## API endpoints
 
@@ -34,22 +19,15 @@ http://localhost:8080/
 - `POST /api/ml/analyze`
 - `GET /api/ml/health`
 
-## ML mode
+<img width="1895" height="901" alt="image" src="https://github.com/user-attachments/assets/4f03e780-d15d-4187-8df0-30d253a69804" />
+<img width="1896" height="902" alt="image" src="https://github.com/user-attachments/assets/a44107f4-969d-475b-b430-150130c6e1d4" />
+<img width="1895" height="901" alt="image" src="https://github.com/user-attachments/assets/872a796e-bfed-4989-b4d0-00d58552529d" />
+<img width="1900" height="902" alt="image" src="https://github.com/user-attachments/assets/ebbfde6b-372b-48c4-af41-94157ba4138b" />
+<img width="1912" height="906" alt="image" src="https://github.com/user-attachments/assets/08baf89d-f4fd-44ff-a66e-5b0ba5b1fba3" />
+<img width="1898" height="906" alt="image" src="https://github.com/user-attachments/assets/deee92b9-28f8-4270-b473-3858d2a78c46" />
 
-Default mode is Java fallback:
 
-```properties
-skillpulse.ml.mode=java
-```
 
-To use the Python wrapper:
 
-```properties
-skillpulse.ml.mode=python
-skillpulse.ml.python.command=python
-```
 
-Install Python packages only when you replace the lightweight wrapper with your full ML model.
-=======
-# SkillPulse
->>>>>>> 579d6b1034407b4e2d3a2050e336d43153ed2eaf
+
