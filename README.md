@@ -5,8 +5,8 @@ SkillPulse is a skill-tracking and MCQ practice platform. Users register, take a
 organized by Subject → Topic → Question, and the system tracks their health score over time with 
 email notifications. 
 
-Tech stack: Spring Boot 2.7 · Java 8 · PostgreSQL (port 5433) · BCrypt · Spring Mail · Python ML bridge 
-· Docker · Static HTML frontend served from the same app. 
+Tech stack: Spring Boot 2.7 · Java 8 · PostgreSQL  · BCrypt · Spring Mail · Python ML bridge 
+
 
 ## API endpoints
 
